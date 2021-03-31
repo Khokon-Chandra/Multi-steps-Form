@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multi steps form</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./form-two.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        Information Form
+      </header>
+      <!-- progress bar start -->
+      <div class="progress-bar">
+
+        <div class="step">
+          <div class="bullet"><span>1</span></div>
+          <div class="check fa fa-check"></div>
+          <p>Basic info</p>
+        </div>
+
+        <div class="step">
+          <div class="bullet"><span>2</span></div>
+          <div class="check fa fa-check"></div>
+          <p>Contact</p>
+        </div>
+
+        <div class="step">
+          <div class="bullet"><span>3</span></div>
+          <div class="check fa fa-check"></div>
+          <p>Details</p>
+        </div>
+
+      </div>
+      <!-- pregress bar end -->
+
+      <div class="form-outer">
+        <form class="">
+          <div class="page">
+            <div class="title">
+              Basic info
+            </div>
+            <div class="field">
+              <label>First Name</label>
+              <input type="text">
+            </div>
+            <div class="field">
+              <label>Last Name</label>
+              <input type="text" >
+            </div>
+            <div class="field">
+              <button type="button" class="next" >Next</button>
+            </div>
+          </div>
+<!-- page one end -->
+          <div class="page">
+            <div class="title">
+            Contact info
+            </div>
+            <div class="field">
+              <label>E-Mail</label>
+              <input type="email" >
+            </div>
+            <div class="field">
+              <label>Phone</label>
+              <input type="text" >
+            </div>
+            <div class="field">
+              <button type="button" class="prev">Previous</button>
+              <button type="button" class="next">Next</button>
+            </div>
+          </div>
+
+          <!-- page two end -->
+
+          <div class="page">
+            <div class="title">
+            Company info
+            </div>
+            <div class="field">
+              <label>Website Link</label>
+              <input type="text" >
+            </div>
+            <div class="field">
+              <label>Address</label>
+              <input type="text" >
+            </div>
+            <div class="field">
+              <button type="button" class="prev">Previous</button>
+              <button type="button" class="submit">Submit</button>
+            </div>
+          </div>
+
+          <!-- page three end -->
+        </form>
+      </div>
+    </div>
+<script src="form.js"></script>
+  </body>
+</html>
